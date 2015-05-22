@@ -1,0 +1,51 @@
+/* TOP BAR STUFF */
+.contain-to-grid {
+  width: 100%;
+  background: #999999;
+}
+.top-bar {
+  background: #999999;
+  overflow: visible;
+}
+.top-bar .name .h1 a{
+  color: #E6E600;
+  display: block;
+  font-weight: normal;
+}
+.top-bar-section ul li {
+  background: #999999;
+}
+/*active color*/
+.top-bar-section li.active:not(.has-form) a:not(.button) {
+  background: #FF3030;
+}
+.top-bar-section li.active:not(.has-form) a:not(.button):hover {
+  background: #CF2727;
+}
+/*non-active color*/
+.top-bar-section li:not(.has-form) a:not(.button) {
+  background: #999999;
+}
+.top-bar-section li:not(.has-form) a:not(.button):hover {
+  background: #7A7A7A;
+}
+
+/*---------------*/
+
+.full-width {
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+   max-width: initial;
+}
+.full-width-color {
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+   max-width: initial;
+   background-color: #333333;
+}
+
+
+
+
